@@ -37,20 +37,20 @@ This project defines a custom `qGAN` class in `qGAN.py` to manage hybrid trainin
    git clone https://github.com/YOUR_USERNAME/Challenge-Notebooks.git  
    cd Challenge-Notebooks/qGAN-Classiq  
 
-3. **(Recommended) Create a venv**
+2. **(Recommended) Create a venv**
    ```bash   
    python -m venv .venv  
    source .venv/bin/activate  # On Windows use: .venv\Scripts\activate  
    
-6. **Install Required Dependencies**
+3. **Install Required Dependencies**
    ```bash  
    pip install classiq qiskit torch qiskit-aer  
 
-8. **Install qGAN Locally**
+4. **Install qGAN Locally**
    ```bash  
    pip install .  
 
-10. **Startup Notebook**
-   ```bash  
-   jupyter notebook qGAN_challenge.ipynb  
-
+5. **Start the notebook**
+   ```bash
+   jupyter notebook qGAN_challenge.ipynb
+   ```
