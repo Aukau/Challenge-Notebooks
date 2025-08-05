@@ -20,8 +20,4 @@ These solutions are intended for:
 
 Please try completing the challenge on your own first before referring to these solutions — that's where the real learning happens!
 
-## 🚫 Academic Integrity Note
-
-If you're using this challenge in a classroom or academic setting, please do not submit the provided solution as your own work.
-
 ---
