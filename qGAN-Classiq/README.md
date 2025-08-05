@@ -53,3 +53,4 @@ This project defines a custom `qGAN` class in `qGAN.py` to manage hybrid trainin
 10. **Startup Notebook**
    ```bash  
    jupyter notebook qGAN_challenge.ipynb  
+
