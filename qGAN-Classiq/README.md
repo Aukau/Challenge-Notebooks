@@ -17,16 +17,11 @@ By completing this challenge notebook, you will:
 ---
 
 ## 📁 Repository Structure
-qGAN-Classiq/
-
-├── qGAN_challenge.ipynb       # 🧪 Main challenge notebook
-
-├── qGAN.py                    # 🧠 qGAN class for hybrid training
-
-├── setup.py                   # 📦 For installing qGAN as a module
-
-├── README.md                  # 📄 You’re here!
-
+qGAN-Classiq/  
+├── qGAN_challenge.ipynb       # 🧪 Main challenge notebook  
+├── qGAN.py                    # 🧠 qGAN class for hybrid training  
+├── setup.py                   # 📦 For installing qGAN as a module  
+├── README.md                  # 📄 You’re here!  
 └── LICENSE                    # ⚖️ MIT License
 
 ---
@@ -37,32 +32,20 @@ This project defines a custom `qGAN` class in `qGAN.py` to manage hybrid trainin
 
 ### 🧪 Install Steps
 
-1. **Clone the repository** (if you haven't already):
-   
-   ```bash
-   
-   git clone https://github.com/YOUR_USERNAME/Challenge-Notebooks.git
-   
-   cd Challenge-Notebooks/qGAN-Classiq
+1. **Clone the repository** (if you haven't already):  
+   ```bash  
+   git clone https://github.com/YOUR_USERNAME/Challenge-Notebooks.git  
+   cd Challenge-Notebooks/qGAN-Classiq  
 
-
-3. **(Recommended) Create a venv**
+3. **(Recommended) Create a venv**  
+   python -m venv .venv  
+   source .venv/bin/activate  # On Windows use: .venv\Scripts\activate  
    
-   python -m venv .venv
-   
-   source .venv/bin/activate  # On Windows use: .venv\Scripts\activate
-   
+6. **Install Required Dependencies**  
+   pip install classiq qiskit torch qiskit-aer  
 
-6. **Install Required Dependencies**
-   
-   pip install classiq qiskit torch qiskit-aer
+8. **Install qGAN Locally**  
+   pip install .  
 
-
-8. **Install qGAN Locally**
-   
-   pip install .
-
-
-10. **Startup Notebook**
-    
-   jupyter notebook qGAN_challenge.ipynb
+10. **Startup Notebook**  
+   jupyter notebook qGAN_challenge.ipynb  
