@@ -19,9 +19,13 @@ By completing this challenge notebook, you will:
 ## 📁 Repository Structure
 qGAN-Classiq/
 ├── qGAN_challenge.ipynb       # 🧪 Main challenge notebook
+
 ├── qGAN.py                    # 🧠 qGAN class for hybrid training
+
 ├── setup.py                   # 📦 For installing qGAN as a module
+
 ├── README.md                  # 📄 You’re here!
+
 └── LICENSE                    # ⚖️ MIT License
 
 ---
