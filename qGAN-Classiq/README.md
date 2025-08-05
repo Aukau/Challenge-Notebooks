@@ -18,6 +18,7 @@ By completing this challenge notebook, you will:
 
 ## 📁 Repository Structure
 qGAN-Classiq/
+
 ├── qGAN_challenge.ipynb       # 🧪 Main challenge notebook
 
 ├── qGAN.py                    # 🧠 qGAN class for hybrid training
