@@ -13,7 +13,7 @@ from tqdm import tqdm
 import matplotlib.pyplot as plt
 from IPython.display import clear_output
 
-class OptimizedqGAN:
+class qGAN:
     """
     Complete optimized Quantum Generative Adversarial Network implementation
     with enhanced loss functions, parameter update methods, and improved training dynamics.
