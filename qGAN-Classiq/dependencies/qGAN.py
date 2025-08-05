@@ -351,7 +351,7 @@ class qGAN:
         # Learning rate scheduler
         if self.adaptive_lr:
             disc_scheduler = optim.lr_scheduler.ReduceLROnPlateau(
-                dis_opt, mode='min', factor=0.8, patience=self.patience//2, verbose=False
+                dis_opt, mode='min', factor=0.8, patience=self.patience//2
             )
 
         print(f"Starting training for {self.epochs} epochs...")
