@@ -34,7 +34,7 @@ This project defines a custom `qGAN` class in `qGAN.py` to manage hybrid trainin
 
 1. **Clone the repository** (if you haven't already):  
    ```bash  
-   git clone https://github.com/Aukau/Challenge-Notebooks.git  
+   git clone https://github.com/Aukau/Challenge-Notebooks/qGAN-Classiq.git  
    cd Challenge-Notebooks/qGAN-Classiq  
 
 2. **(Recommended) Create a venv**
